@@ -8,4 +8,7 @@ node {
     stage('Deploy') { 
         echo "steps from deploy stages"
     }
+    stage('Archive'){
+        echo "steps from archive"
+    }
 }
